@@ -1,9 +1,11 @@
 <mat-toolbar>
   <mat-toolbar-row>
-    <button mat-icon-button>
+    <button mat-icon-button (click)="toggleSideBar()">
       <mat-icon>menu</mat-icon>
     </button>
-    <span>GOD IS GREAT CANNOT BE MORE SIMPLE THAN THAT VRO</span>
+
+    <span> GOD IS GREAT CANNOT BE MORE SIMPLE THAN THAT VRO</span>
+
     <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
       <ul fxLayout="row" fxLayoutGap="20px">
         <li>
@@ -22,8 +24,9 @@
           </button>
           <mat-menu #menu="matMenu">
             <button mat-menu-item>
-              <mat-icon>exit_to_app</mat-icon></button
-            >Sign out
+              <mat-icon>exit_to_app</mat-icon>
+              Sign out
+            </button>
           </mat-menu>
         </li>
       </ul>

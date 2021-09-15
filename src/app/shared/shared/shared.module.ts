@@ -10,6 +10,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatListModule } from '@angular/material/list'
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MatListModule } from '@angular/material/list'
   ],
   imports: [
     CommonModule,
+    RouterModule,
     MatDividerModule,
     MatToolbarModule,
     MatIconModule,
