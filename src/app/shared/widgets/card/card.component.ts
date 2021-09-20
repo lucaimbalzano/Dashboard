@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import HC_exporting from 'highcharts/modules/exporting';
 
+
 @Component({
   selector: 'app-widget-card',
   templateUrl: './card.component.html',
@@ -13,7 +14,7 @@ export class CardComponent implements OnInit {
   @Input() total: string;
   @Input() percentage: string;
   //Charts Data displayed on charts
-  @Input() data = [];
+  @Input() dataCards = [];
 
   Highcharts = Highcharts;
   chartOptions = {};
@@ -71,8 +72,7 @@ export class CardComponent implements OnInit {
         tickOptions: []
       },
       series: [{
-        name: 'Data',
-        data: [3300, 2500, 809, 947, 1402, 3634, 5268]
+        data: this.dataCards
     }]
     };
 

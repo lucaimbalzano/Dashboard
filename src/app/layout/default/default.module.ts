@@ -12,6 +12,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { DefaultComponent } from './default.component';
 import { DashboardComponent } from 'src/app/module/dashboard/dashboard.component';
 import { PostsComponent } from 'src/app/module/posts/posts.component';
+import { DashboardService } from 'src/app/module/dashboard.service';
 
 
 @NgModule({
@@ -31,6 +32,9 @@ import { PostsComponent } from 'src/app/module/posts/posts.component';
     MatPaginatorModule,
     MatTableModule,
     FlexLayoutModule
-    ] 
+    ] ,
+    providers:[
+      DashboardService
+    ]
 })
 export class DefaultModule { }
