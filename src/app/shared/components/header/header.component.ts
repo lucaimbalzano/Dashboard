@@ -20,6 +20,7 @@ export class HeaderComponent implements OnInit {
     this.sidebarDoor = !this.sidebarDoor;
     this.toggleSideBarForMe.emit( this.sidebarDoor );
 
+//Advatage to load items
     setTimeout(() => {
       window.dispatchEvent(
         new Event('resize')

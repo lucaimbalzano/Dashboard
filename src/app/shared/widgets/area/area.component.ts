@@ -51,16 +51,11 @@ export class AreaComponent implements OnInit {
         split: true,
         valueSuffix: ' millions'
     },
-    plotOptions: {
-        area: {
-            stacking: 'normal',
-            lineColor: '#666666',
-            lineWidth: 1,
-            marker: {
-                lineWidth: 1,
-                lineColor: '#666666'
-            }
-        }
+    credits:{
+      enabled : false
+    },
+    exporting:{
+      enabled : true
     },
     series: [{
         name: 'Asia',
@@ -80,8 +75,10 @@ export class AreaComponent implements OnInit {
     }]
 };
 
+//Menu to export data from Highchart
     HC_exporting(Highcharts);
 
+    //Advatage to load items
     setTimeout(() => {
       window.dispatchEvent(
         new Event('resize')
