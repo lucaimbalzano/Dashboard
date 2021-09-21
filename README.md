@@ -12,6 +12,8 @@ Dashboard Angular App
 
 
 ## Preview📌
+![image](https://user-images.githubusercontent.com/45575898/134182882-e174b9fb-d351-414d-a55d-adc3b12915aa.png)
+
 
 ![Dashboard — Firefox Developer Edition 2021-09-21 15-44-42](https://user-images.githubusercontent.com/45575898/134182650-1c26f1e3-f8dc-4601-b203-4571b87f8c20.gif)
 
@@ -23,7 +25,9 @@ Dashboard Angular App
 Run `npm install` to install all the dependencies
 
 ## Description📌
-
+I used https://material.angular.io/ as pre-styled components.
+I nested a two module where the default.module.ts is the main one. I built first the template where step-by-step i added what i needed.
+I used Mock-Data to display some values, it's just the User-Interface part.
 
 ## Development server📌
 
