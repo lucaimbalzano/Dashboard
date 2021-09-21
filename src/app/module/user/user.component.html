@@ -1,1 +1,74 @@
-<p>user works!</p>
+<div fxLayout="row" fxLayoutAlign="center">
+  <div fxFlex="60">
+    <div class="addPhoto-container">
+      <img class="addPhoto-img" src="../../../assets/images/addUserPhoto.png" />
+    </div>
+  </div>
+  <div
+    class="photo-config-container"
+    fxFlex="40"
+    fxLayoutGap="10px"
+    fxLayout="column"
+    fxLayoutAlign="center center"
+  >
+    <button class="button"><mat-icon>add_circle</mat-icon> Change photo</button>
+  </div>
+</div>
+<br />
+<br />
+<mat-divider></mat-divider>
+<div fxLayout="row" fxLayoutAlign="center">
+  <h2><mat-icon>person</mat-icon> <b>User Configuartion</b></h2>
+</div>
+<div fxLayout="row" fxLayoutAlign="center" class="user-information-container">
+  <div fxLayout="row" fxLayoutAlign="space-between center">
+    <div fxFlex="50">
+      <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="Name .." value="Luca" />
+        </mat-form-field>
+      </form>
+    </div>
+    <div fxFlex="50">
+      <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Surname</mat-label>
+          <input matInput placeholder="Surname .." value="Imbalzano" />
+        </mat-form-field>
+      </form>
+    </div>
+  </div>
+</div>
+<div fxLayout="row" fxLayoutAlign="center" class="user-information-container">
+  <div fxLayout="row" fxLayoutAlign="space-between center">
+    <div fxFlex="50">
+      <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Email</mat-label>
+          <input
+            matInput
+            placeholder="Email .."
+            value="Lucaimbalzano@gmail.com"
+          />
+        </mat-form-field>
+      </form>
+    </div>
+    <div fxFlex="50">
+      <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Password</mat-label>
+          <input
+            matInput
+            placeholder="Password .."
+            value="Password"
+            type="password"
+          />
+        </mat-form-field>
+      </form>
+    </div>
+  </div>
+</div>
+<button class="button" color="success">
+  <mat-icon>save_alt</mat-icon> Save
+</button>

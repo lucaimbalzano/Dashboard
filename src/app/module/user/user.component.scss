@@ -1,0 +1,66 @@
+.addPhoto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+  .addPhoto-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #ebf3f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.photo-config-container {
+  padding-top: 50px;
+  padding-right: 100px;
+}
+
+.button {
+  background-color: #02a985; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  min-width: 64px;
+  line-height: 36px;
+  padding: 0 16px;
+  border-radius: 4px;
+  overflow: visible;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.14),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  .mat-icon {
+    margin-top: 5px;
+  }
+}
+
+.user-information-container {
+  width: 100%;
+  padding: 10px 200px 50px 200px;
+  .example-form {
+    margin: 20px;
+  }
+}
+
+.button:hover {
+  background-color: #000000;
+  color: white;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #02a985;
+}
+
+h2 {
+  margin-top: 60px;
+}
