@@ -16,6 +16,7 @@ import { DashboardComponent } from 'src/app/module/dashboard/dashboard.component
 import { PostsComponent } from 'src/app/module/posts/posts.component';
 import { DashboardService } from 'src/app/module/dashboard.service';
 import { MatIconModule } from '@angular/material/icon';
+import { UserComponent } from 'src/app/module/user/user.component';
 
 
 
@@ -23,7 +24,8 @@ import { MatIconModule } from '@angular/material/icon';
   declarations: [
     DefaultComponent,
     DashboardComponent,
-    PostsComponent
+    PostsComponent,
+    UserComponent
     
   ],
   imports: [
