@@ -1,7 +1,8 @@
 # Dashboard
 Dashboard Angular App
 
-<img src="https://user-images.githubusercontent.com/45575898/129688120-94695d10-9a17-4833-8b73-c9d45331a7c4.png" width="60" height="60" />
+<img src="https://user-images.githubusercontent.com/45575898/134179693-ec200418-6b31-491a-b1f6-802170f74cac.png" width="60" height="60" />
+![dashboardPhoto](https://user-images.githubusercontent.com/45575898/134179693-ec200418-6b31-491a-b1f6-802170f74cac.png)
 
 
   <img alt="angular" src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" /> <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
