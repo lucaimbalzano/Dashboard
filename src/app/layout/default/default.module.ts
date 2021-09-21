@@ -8,11 +8,15 @@ import { MatCardModule } from '@angular/material/card';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTableModule } from '@angular/material/table';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatSortModule } from '@angular/material/sort';
+import { MatInputModule } from '@angular/material/input';
 
 import { DefaultComponent } from './default.component';
 import { DashboardComponent } from 'src/app/module/dashboard/dashboard.component';
 import { PostsComponent } from 'src/app/module/posts/posts.component';
 import { DashboardService } from 'src/app/module/dashboard.service';
+import { MatIconModule } from '@angular/material/icon';
+
 
 
 @NgModule({
@@ -31,6 +35,9 @@ import { DashboardService } from 'src/app/module/dashboard.service';
     MatCardModule,
     MatPaginatorModule,
     MatTableModule,
+    MatSortModule,
+    MatInputModule,
+    MatIconModule,
     FlexLayoutModule
     ] ,
     providers:[

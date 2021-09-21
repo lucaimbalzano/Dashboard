@@ -1,6 +1,6 @@
 <mat-toolbar>
   <mat-toolbar-row>
-    <button mat-icon-button (click)="toggleSideBar()">
+    <button class="rotate" mat-icon-button (click)="toggleSideBar()">
       <mat-icon>menu</mat-icon>
     </button>
     <img
@@ -24,7 +24,7 @@
         </li>
         <li>
           <button mat-button [matMenuTriggerFor]="menu">
-            <mat-icon>person_outline</mat-icon>
+            <mat-icon>subdirectory_arrow_right</mat-icon>
           </button>
           <mat-menu #menu="matMenu">
             <button mat-menu-item>

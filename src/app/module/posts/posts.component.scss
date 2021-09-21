@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+  .mat-header-row {
+    background-color: rgb(36, 36, 36);
+  }
+  .mat-header-cell {
+    color: white;
+  }
+}
+
+.mat-row :hover {
+  background-color: rgb(233, 230, 230);
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+h1 {
+  margin-top: 35px;
+}
