@@ -12,6 +12,9 @@ Dashboard Angular App
 
 
 ## Preview📌
+
+![Dashboard — Firefox Developer Edition 2021-09-21 15-44-42](https://user-images.githubusercontent.com/45575898/134182650-1c26f1e3-f8dc-4601-b203-4571b87f8c20.gif)
+
 ![Dashboard — Firefox Developer Edition 2021-09-21 15-39-50 (online-video-cutter com)](https://user-images.githubusercontent.com/45575898/134181860-5c6e2f4c-0bfb-4eff-ad23-86f8b8700f23.gif)
 
 
